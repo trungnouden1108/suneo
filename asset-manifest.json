@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/suneo/static/css/main.101afab2.css",
+    "main.js": "/suneo/static/js/main.6b75d3a6.js",
+    "static/js/845.959dd377.chunk.js": "/suneo/static/js/845.959dd377.chunk.js",
+    "static/media/3.jpg": "/suneo/static/media/3.9ca0ad2dc6d03ae41d72.jpg",
+    "static/media/4.jpg": "/suneo/static/media/4.d168daad087de4a77bb4.jpg",
+    "static/media/11.jpg": "/suneo/static/media/11.1819daf6ab1157b2a414.jpg",
+    "static/media/5.jpg": "/suneo/static/media/5.34b3908bc6c7bb107ff9.jpg",
+    "static/media/8.jpg": "/suneo/static/media/8.34b3908bc6c7bb107ff9.jpg",
+    "static/media/14.jpg": "/suneo/static/media/14.e3febc64575ffbdc29e6.jpg",
+    "static/media/15.jpg": "/suneo/static/media/15.b8e3e1de9b156ef5c3e6.jpg",
+    "static/media/16.jpg": "/suneo/static/media/16.26dce7899baea85404af.jpg",
+    "static/media/suneo1.gif": "/suneo/static/media/suneo1.a87ff975ed97ec1414e8.gif",
+    "static/media/13.jpg": "/suneo/static/media/13.a65eed1b71a5ff8ab33c.jpg",
+    "static/media/17.jpg": "/suneo/static/media/17.e11e77a78e4bf8f99d87.jpg",
+    "static/media/2.jpg": "/suneo/static/media/2.28939449a618e2dde314.jpg",
+    "static/media/1.jpg": "/suneo/static/media/1.6cf47a4ab82464c8243f.jpg",
+    "static/media/19.JPG": "/suneo/static/media/19.0b471f76eed5b43d7ec9.JPG",
+    "static/media/6.jpg": "/suneo/static/media/6.6af67161e22360c12195.jpg",
+    "static/media/9.jpg": "/suneo/static/media/9.6af67161e22360c12195.jpg",
+    "static/media/20.jpg": "/suneo/static/media/20.33588bbaaddd073701b8.jpg",
+    "static/media/Suneo.m4a": "/suneo/static/media/Suneo.440d14e2e24f42a7cae0.m4a",
+    "static/media/18.jpg": "/suneo/static/media/18.78af10ba4eaa7da35d54.jpg",
+    "static/media/em.PNG": "/suneo/static/media/em.57bfae86dce50729745d.PNG",
+    "static/media/10.jpg": "/suneo/static/media/10.4321fc725a416d5ffb4a.jpg",
+    "static/media/7.jpg": "/suneo/static/media/7.4321fc725a416d5ffb4a.jpg",
+    "static/media/cau-hon.png": "/suneo/static/media/cau-hon.cdc85136ba5e0b28c55d.png",
+    "static/media/12.jpg": "/suneo/static/media/12.fe0460b27396b137628a.jpg",
+    "static/media/birthday.png": "/suneo/static/media/birthday.614a0d0b6774bc91d5f2.png",
+    "static/media/happy-new-year.png": "/suneo/static/media/happy-new-year.7895a3399e76ccb5790d.png",
+    "index.html": "/suneo/index.html",
+    "main.101afab2.css.map": "/suneo/static/css/main.101afab2.css.map",
+    "main.6b75d3a6.js.map": "/suneo/static/js/main.6b75d3a6.js.map",
+    "845.959dd377.chunk.js.map": "/suneo/static/js/845.959dd377.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.101afab2.css",
+    "static/js/main.6b75d3a6.js"
+  ]
+}
