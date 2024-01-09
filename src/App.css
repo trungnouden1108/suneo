@@ -1,5 +1,4 @@
-/* @import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css"; */
+
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +21,6 @@
   align-items: center;
   background: linear-gradient(270deg, #051817, #0e3839);
   height: 180px;
-  /* width:350px; */
   color: #06f1f6;
   text-shadow: 1px 1px 7px;
   border-radius: 15px;
@@ -95,11 +93,9 @@
 
 .progressbar-img {
   position: relative;
-  /* overflow: hidden; */
   height: 40px;
   border-radius: 5px;
   margin-left: 50px;
-  /* margin-right: 90px; */
 }
 
 .progress-percent {
@@ -255,9 +251,7 @@ h2 {
 
 }
 
-/*-- Animation Keyframes --*/
 
-// animation
 
 @keyframes neon {
   from {
