@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/suneo/static/css/main.1b07ae53.css",
-    "main.js": "/suneo/static/js/main.ab4c0151.js",
+    "main.js": "/suneo/static/js/main.c1ba6d1e.js",
     "static/js/845.959dd377.chunk.js": "/suneo/static/js/845.959dd377.chunk.js",
     "static/media/3.jpg": "/suneo/static/media/3.9ca0ad2dc6d03ae41d72.jpg",
     "static/media/4.jpg": "/suneo/static/media/4.d168daad087de4a77bb4.jpg",
@@ -31,11 +31,11 @@
     "static/media/happy-new-year.png": "/suneo/static/media/happy-new-year.7895a3399e76ccb5790d.png",
     "index.html": "/suneo/index.html",
     "main.1b07ae53.css.map": "/suneo/static/css/main.1b07ae53.css.map",
-    "main.ab4c0151.js.map": "/suneo/static/js/main.ab4c0151.js.map",
+    "main.c1ba6d1e.js.map": "/suneo/static/js/main.c1ba6d1e.js.map",
     "845.959dd377.chunk.js.map": "/suneo/static/js/845.959dd377.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b07ae53.css",
-    "static/js/main.ab4c0151.js"
+    "static/js/main.c1ba6d1e.js"
   ]
 }
