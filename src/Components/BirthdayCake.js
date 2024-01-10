@@ -12,16 +12,16 @@ export default function BirthdayCake({handleOpen}) {
     };
   return (
     <div id="birthday-cake">
-  <div class="cake">
-    <div class="middle"></div>
-    <div class="chocs"></div>
-    <div class="top"></div>
+  <div className="cake">
+    <div className="middle"></div>
+    <div className="chocs"></div>
+    <div className="top"></div>
   </div>
-  <div class="candles" onClick={() => handleClick()} >
-    <div class="flame"></div>
-    <div class="flame2"></div>
-    <div class="flame3"></div>
-    <div class="shadows"></div>
+  <div className="candles" onClick={() => handleClick()} >
+    <div className="flame"></div>
+    <div className="flame2"></div>
+    <div className="flame3"></div>
+    <div className="shadows"></div>
   </div>
 </div>
   )

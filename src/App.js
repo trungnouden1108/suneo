@@ -24,12 +24,16 @@ function App() {
   const [cake, setCake] = useState(false);
   const [card, setCard] = useState(false)
   const [play] = useSound(nhac, {volume: 0.25});
+  const [allow, setAllow] = useState(false);
 
   const handleClickOpen = () => {
-    play()
-    setOpen(true)
-    setCake(true)
-    setCard(false)
+    if (allow) {
+      play()
+      setOpen(true)
+      setCake(true)
+      setCard(false)
+    }
+    
   };
 
   const handleCardOpen = () => {
@@ -57,7 +61,6 @@ function App() {
   const [timerMinutes, setTimerMinutes] = useState();
   const [timerSeconds, setTimerSeconds] = useState();
   const [countDays, setCountDays] = useState(0);
-
   useEffect(() => {
     localStorage.setItem('filled', filled.toString());
   }, [filled]);
@@ -65,6 +68,7 @@ function App() {
   useEffect(() => {
     const scheduleConfetti = () => {
       const targetDate = new Date('January 13, 2024 00:00:00').getTime();
+      console.log(new Date('January 13, 2024 00:00:00'))
       const now = new Date().getTime();
       const timeUntilEvent = targetDate - now;
   
@@ -73,7 +77,7 @@ function App() {
           handleConfettiOpen();
           setTimeout(() => {
             handleConfettiClose();
-            handleClickOpen();
+            setAllow(true)
           }, 15000);
         }, timeUntilEvent);
       }
@@ -84,7 +88,6 @@ function App() {
   useEffect(() => {
     const calculateCountDays = () => {
       const today = new Date();
-      console.log("today", today)
       const anniversary = new Date("August 11, 2017");
       const daysCount = Math.ceil((today.getTime() - anniversary.getTime()) / (1000 * 3600 * 24));
       setCountDays(daysCount);

@@ -3,17 +3,17 @@ import image from "../Static/image/em.PNG"
 import card from "../Static/image/card.jpg"
 export default function BirthdayCard() {
   return (
-    <div class="birthday-card">
-    <div class="cover-inner">
+    <div className="birthday-card">
+    <div className="cover-inner">
         <img src={image} width="100%" alt="text"/>
     </div>
 
-    <div class="cover-outer">
+    <div className="cover-outer">
         <img src={card} width="100%" alt="text"/>
     </div>
 
-        <div class="text">
-          <p class="title">
+        <div className="text">
+          <p className="title">
             Chúc mừng sinh nhật <br/> Em
           </p>
           <p>
