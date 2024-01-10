@@ -210,7 +210,7 @@
   
 .cake-container {
     display: flex;
-  height: 40vh;
+  height: 400px;
   align-items: center;
   justify-content: center;
   overflow: hidden;

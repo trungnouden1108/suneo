@@ -47,7 +47,10 @@ function App() {
   const handleConfettiClose = () => {
     setRecycle(false);
   };
-  const [filled, setFilled] = useState(3);
+  const [filled, setFilled] = useState(() => {
+    const storedValue = localStorage.getItem('filled');
+    return storedValue ? parseInt(storedValue) : 3;
+  });
 
   const [timerDays, setTimerDays] = useState();
   const [timerHours, setTimerHours] = useState();
@@ -55,6 +58,9 @@ function App() {
   const [timerSeconds, setTimerSeconds] = useState();
   const [countDays, setCountDays] = useState(0);
 
+  useEffect(() => {
+    localStorage.setItem('filled', filled.toString());
+  }, [filled]);
   
   useEffect(() => {
     const scheduleConfetti = () => {
@@ -144,8 +150,6 @@ function App() {
         {
           setFilled(6);
         }
-
-       
       }
     });
   };
@@ -159,14 +163,14 @@ function App() {
     <div style={{backgroundColor: "#ffcad2"}}>
       <Box sx={{ flexGrow: 1 }}>
         <Grid container columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-          <Grid item xs={4} md={6}>
+          <Grid item md={6}>
               <Clock timerDays={timerDays} timerHours={timerHours} 
                       timerMinutes={timerMinutes} timerSeconds={timerSeconds} />
               <Progressbar
                         filled={filled}
                       />
           </Grid>
-          <Grid item xs={4} md={6}>
+          <Grid item md={6}>
 
             <div className="heart-container" onClick={()=>handleClickOpen()}>
               <div className="heart">
@@ -179,7 +183,7 @@ function App() {
               </div>
             </div>
           </Grid>
-          <Grid item xs={10} md={12}>
+          <Grid item md={12}>
             <Grid container>
               <Grid item md={4} style={{justifyContent: 'flex-end', display: 'flex'}}>
                 <img src={suNeo1} alt="text" width={'50%'} height={'80%'}></img>
@@ -192,7 +196,7 @@ function App() {
               </Grid>
             </Grid>
           </Grid>
-          <Grid item xs={10} md={12}>
+          <Grid item md={12}>
             <div className="photo-frame">
               <Album/>
             </div>
@@ -214,7 +218,7 @@ function App() {
           },
         }}
       >
-        <DialogContent style={{height: '1000px'}}>
+        <DialogContent style={{height: '800px'}}>
           
           {card && <BirthdayCard />}
           {cake && <div className="cake-container">
@@ -225,7 +229,7 @@ function App() {
         </DialogContent>
       </Dialog>
        <Confetti
-        width={'2000px'}
+        width={'1200px'}
         height={'2000px'}
         recycle={recycle}
       />

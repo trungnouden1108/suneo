@@ -1,5 +1,6 @@
 import React from "react"
 import image from "../Static/image/em.PNG"
+import card from "../Static/image/card.jpg"
 export default function BirthdayCard() {
   return (
     <div class="birthday-card">
@@ -8,7 +9,7 @@ export default function BirthdayCard() {
     </div>
 
     <div class="cover-outer">
-        <img src="https://images.esellerpro.com/3274/I/318/37/lrgscaleAO002.jpg" width="100%" alt="text"/>
+        <img src={card} width="100%" alt="text"/>
     </div>
 
         <div class="text">
