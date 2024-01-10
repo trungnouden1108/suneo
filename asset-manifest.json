@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/suneo/static/css/main.08098ddb.css",
-    "main.js": "/suneo/static/js/main.b8e697f0.js",
+    "main.js": "/suneo/static/js/main.d3a2095a.js",
     "static/js/845.959dd377.chunk.js": "/suneo/static/js/845.959dd377.chunk.js",
     "static/media/3.jpg": "/suneo/static/media/3.9ca0ad2dc6d03ae41d72.jpg",
     "static/media/4.jpg": "/suneo/static/media/4.d168daad087de4a77bb4.jpg",
@@ -20,6 +20,7 @@
     "static/media/6.jpg": "/suneo/static/media/6.6af67161e22360c12195.jpg",
     "static/media/9.jpg": "/suneo/static/media/9.6af67161e22360c12195.jpg",
     "static/media/20.jpg": "/suneo/static/media/20.33588bbaaddd073701b8.jpg",
+    "static/media/card.jpg": "/suneo/static/media/card.a522d450a4edaec47495.jpg",
     "static/media/Suneo.m4a": "/suneo/static/media/Suneo.440d14e2e24f42a7cae0.m4a",
     "static/media/18.jpg": "/suneo/static/media/18.78af10ba4eaa7da35d54.jpg",
     "static/media/em.PNG": "/suneo/static/media/em.57bfae86dce50729745d.PNG",
@@ -31,11 +32,11 @@
     "static/media/happy-new-year.png": "/suneo/static/media/happy-new-year.7895a3399e76ccb5790d.png",
     "index.html": "/suneo/index.html",
     "main.08098ddb.css.map": "/suneo/static/css/main.08098ddb.css.map",
-    "main.b8e697f0.js.map": "/suneo/static/js/main.b8e697f0.js.map",
+    "main.d3a2095a.js.map": "/suneo/static/js/main.d3a2095a.js.map",
     "845.959dd377.chunk.js.map": "/suneo/static/js/845.959dd377.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08098ddb.css",
-    "static/js/main.b8e697f0.js"
+    "static/js/main.d3a2095a.js"
   ]
 }
