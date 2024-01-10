@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/suneo/static/css/main.08098ddb.css",
+    "main.css": "/suneo/static/css/main.f1fc383f.css",
     "main.js": "/suneo/static/js/main.d3a2095a.js",
     "static/js/845.959dd377.chunk.js": "/suneo/static/js/845.959dd377.chunk.js",
     "static/media/3.jpg": "/suneo/static/media/3.9ca0ad2dc6d03ae41d72.jpg",
@@ -31,12 +31,12 @@
     "static/media/birthday.png": "/suneo/static/media/birthday.614a0d0b6774bc91d5f2.png",
     "static/media/happy-new-year.png": "/suneo/static/media/happy-new-year.7895a3399e76ccb5790d.png",
     "index.html": "/suneo/index.html",
-    "main.08098ddb.css.map": "/suneo/static/css/main.08098ddb.css.map",
+    "main.f1fc383f.css.map": "/suneo/static/css/main.f1fc383f.css.map",
     "main.d3a2095a.js.map": "/suneo/static/js/main.d3a2095a.js.map",
     "845.959dd377.chunk.js.map": "/suneo/static/js/845.959dd377.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08098ddb.css",
+    "static/css/main.f1fc383f.css",
     "static/js/main.d3a2095a.js"
   ]
 }
