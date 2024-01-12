@@ -232,7 +232,7 @@ function App() {
         </DialogContent>
       </Dialog>
        <Confetti
-        width={'1200px'}
+        width={'1300px'}
         height={'2000px'}
         recycle={recycle}
       />
